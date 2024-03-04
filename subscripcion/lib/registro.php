@@ -15,8 +15,6 @@ $subs_inst = clean_utf(strtoupper($_POST['institucion']));
 $subs_cargo = clean_utf(strtoupper($_POST['cargo']));
 $subs_email = clean_utf(strtolower($_POST['email']));
 
-echo '<script language="javascript">alert("El usuario ' . $subs_name . ' se ha registrado correctamente ---------------");</script>';
-
 $resultado=mysqli_query($db_connection, "SELECT * FROM ".$db_table_name." WHERE Nombre = '".$subs_name."'");
 
 if (mysqli_num_rows($resultado)>0)
