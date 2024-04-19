@@ -1,0 +1,22 @@
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+  width: 350px;
+  height: 350px;
+  border: solid;
+  border-color: #F9F9F9;
+  border-radius:0.5rem;
+  box-shadow: 8px 2px 2px #A18175;
+
+}
+
+.formItem{
+  width: 90%;
+  height: 35px;
+  border-radius:0.5rem;
+  box-shadow: 2px 1px 1px #A18175;
+
+}

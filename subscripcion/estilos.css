@@ -141,6 +141,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D7BCAB', end
 	box-shadow:         inset 0 0 2px rgba(0, 0, 0, 0.7), 0 1px 0 rgba(255, 255, 255, 0.1);
 	behavior: url(PIE.htc);
 }
+.form-btn-back{
+	text-decoration: none;
+	padding: 8px;
+	border-radius: 10px;
+	height: 30px;
+	font: bold 12px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.7);
+	cursor: pointer;
+	border: 1px solid #0d3d6a;
+	outline: none;
+	position: relative;
+	background-color: #99796f;	
+	-moz-box-shadow:    inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.7);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.7);
+	box-shadow:         inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.7);
+	-moz-background-clip:    padding;
+	-webkit-background-clip: padding-box;
+	background-clip:         padding-box;
+	behavior: url(PIE.htc);
+}
 
 label {
 	margin-bottom: 8px;
@@ -161,4 +183,56 @@ label span {
     background-color: #444444;
     border: 1px solid #CCCCCC;
     padding: 20px;
+}
+
+.title-menu{
+	color: #A18175;
+	
+}
+
+.custom-ul{
+	display: flex;
+	gap: 15px;
+	justify-content: space-between;
+	list-style-type: none;
+	width: 800px;
+	
+}
+.custom-li{
+	padding: 10px;
+	background-color: #A18175;
+	width: 100%;
+	border-radius:0.5rem;
+	text-align: center;	
+	opacity: 0.7;
+  	transition: 0.3s;
+}
+
+
+.custom-li:hover{
+	
+	opacity: 1
+	
+}
+
+.lnk{
+	text-decoration: none;
+	color: #f0f6fc;
+	font-weight: 700;
+}
+
+
+.container-menu{	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 600px;
+	border-radius: 5% /5%;
+	gap: 10px;
+	
+}
+
+.image-fail{
+	width: 350px;
+	height: 350px;
 }
